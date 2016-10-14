@@ -1,0 +1,254 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, thead, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 0; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: ''; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.sprite {
+  background-image: url("../images/spritesheet.png");
+  background-repeat: no-repeat;
+  display: block; }
+
+.sprite-eco-payz {
+  width: 109px;
+  height: 25px;
+  background-position: -5px -5px; }
+
+.sprite-master-card {
+  width: 41px;
+  height: 36px;
+  background-position: -5px -40px; }
+
+.sprite-neteller {
+  width: 137px;
+  height: 25px;
+  background-position: -5px -86px; }
+
+.sprite-paysafe {
+  width: 98px;
+  height: 25px;
+  background-position: -56px -40px; }
+
+.sprite-scrill {
+  width: 71px;
+  height: 25px;
+  background-position: -5px -121px; }
+
+.sprite-transfer {
+  width: 73px;
+  height: 25px;
+  background-position: -86px -121px; }
+
+.sprite-trustly {
+  width: 85px;
+  height: 25px;
+  background-position: -124px -5px; }
+
+.sprite-visa {
+  width: 86px;
+  height: 31px;
+  background-position: -164px -40px; }
+
+.wrapper {
+  background-image: url("../images/mobile-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 16px;
+  position: relative; }
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10; }
+  .container_below {
+    z-index: 0; }
+
+.header {
+  padding-top: 1em;
+  position: relative;
+  z-index: 10; }
+
+.logo {
+  text-align: center;
+  background-image: url("../images/logo-wrapper.png");
+  background-repeat: no-repeat;
+  min-height: 320px;
+  background-position: center; }
+  .logo__link {
+    display: inline-block;
+    margin-top: 8.7em; }
+
+.winner {
+  text-align: center;
+  background-image: url("../images/stars.png");
+  background-repeat: no-repeat;
+  min-height: 580px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -13em;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%; }
+
+.bonus {
+  border-radius: 5px;
+  margin-top: 50px; }
+
+.game {
+  min-height: 700px;
+  background-image: url(../images/middle.png);
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position: center;
+  margin: 13em 0; }
+
+.slot {
+  height: 350px; }
+  .slot__container {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto; }
+  .slot__item {
+    background-image: url("../images/right.png");
+    height: 210px;
+    width: 33%;
+    margin-top: 73px;
+    border-radius: 11px; }
+  .slot__elem {
+    height: 100%;
+    overflow: hidden; }
+
+.result,
+.button {
+  text-align: center;
+  min-height: 240px; }
+
+.footer {
+  background-color: #32494c;
+  padding: 40px 0; }
+
+.pay {
+  display: flex;
+  justify-content: space-around; }
+
+.form {
+  margin: 1em 0; }
+
+.age {
+  width: 25px;
+  height: 25px; }
+
+.greetings {
+  font-family: 'Calibri', Arial, sans-serif;
+  font-size: 2em;
+  font-weight: 700; }
+
+.text {
+  padding: 30px;
+  line-height: 1.5; }
+
+.attention {
+  color: #ff5254; }
+
+.continue {
+  display: inline-block;
+  width: 400px; }
+  .continue img {
+    width: 100%; }
+
+.modal {
+  display: none; }
+  .modal__container {
+    color: #fff;
+    text-transform: uppercase;
+    border: 30px solid #9e1113;
+    border-radius: 60px;
+    max-width: 1000px;
+    padding: 60px;
+    margin: auto;
+    background-image: url("../images/pop-up_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 2em;
+    text-align: center; }
+  .modal_opened {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    z-index: 10; }
+
+@media only screen and (min-width: 940px) {
+  .logo {
+    background: #fff;
+    min-height: auto;
+    padding: 1em 0; }
+    .logo__link {
+      margin-top: 1em; }
+  .header {
+    padding: 0; }
+  .greetings {
+    font-size: 1.5em; } }
+
+@media only screen and (max-width: 875px) {
+  .container {
+    padding: 0 1em; }
+  .game,
+  .winner {
+    background-size: contain; }
+  .img {
+    width: 100%; }
+  .modal__container {
+    padding: 1.5em; } }
