@@ -1,0 +1,41 @@
+@media only screen and (min-width: 940px) {
+  .logo  {
+    background: #fff;
+    min-height: auto;
+    padding: 1em 0;
+
+    &__link {
+      margin-top: 1em;
+    }
+  }
+
+  .header {
+    padding: 0;
+  }
+
+  .greetings {
+    font-size: 1.5em;
+  }
+
+}
+
+@media only screen and (max-width: 875px) {
+  .container {
+    padding: 0 1em;
+  }
+
+  .game,
+  .winner {
+    background-size: contain;
+  }
+
+  .img {
+    width: 100%;
+  }
+
+  .modal {  
+    &__container {
+      padding: 1.5em;
+    }
+  }
+}

@@ -1,0 +1,144 @@
+.wrapper {
+  background-image: url('../images/mobile-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 16px;
+  position: relative;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+
+  &_below {
+    z-index: 0;
+  }
+}
+
+.header {
+  padding-top: 1em;
+  position: relative;
+  z-index: 10;
+}
+
+.logo {
+  text-align: center;
+  background-image: url('../images/logo-wrapper.png');
+  background-repeat: no-repeat;
+  min-height: 320px;
+  background-position: center;
+
+  &__link {
+    display: inline-block;
+    margin-top: 8.7em;
+  }
+}
+
+.winner {
+  text-align: center;
+  background-image: url('../images/stars.png');
+  background-repeat: no-repeat;
+  min-height: 580px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -13em;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.bonus {
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.game {
+  min-height: 700px;
+  background-image: url(../images/middle.png);
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position: center;
+  margin: 13em 0;
+  
+}
+
+.slot {
+
+  height: 350px;
+
+  &__container {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  &__item {
+    background-image: url('../images/right.png');
+    height: 210px;
+    width: 33%;
+    margin-top: 73px;
+    border-radius: 11px;
+  }
+
+  &__elem {
+    height: 100%;
+    overflow: hidden;
+  }
+  
+}
+
+.result,
+.button {
+  text-align: center;
+  min-height: 240px;
+}
+
+.footer {
+  background-color: #32494c;
+  padding: 40px 0;
+}
+
+.pay {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form {
+  margin: 1em 0;
+}
+
+.age {
+  width: 25px;
+  height: 25px;
+}
+
+.greetings {
+  font-family: 'Calibri', Arial, sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.text {
+  padding: 30px;
+  line-height: 1.5;
+}
+
+.attention {
+  color: #ff5254;
+}
+
+.continue {
+  display: inline-block;
+  width: 400px;
+
+  & img {
+    width: 100%;
+  }
+}

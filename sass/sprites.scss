@@ -1,0 +1,53 @@
+.sprite {
+    background-image: url('../images/spritesheet.png');
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-eco-payz {
+    width: 109px;
+    height: 25px;
+    background-position: -5px -5px;
+}
+
+.sprite-master-card {
+    width: 41px;
+    height: 36px;
+    background-position: -5px -40px;
+}
+
+.sprite-neteller {
+    width: 137px;
+    height: 25px;
+    background-position: -5px -86px;
+}
+
+.sprite-paysafe {
+    width: 98px;
+    height: 25px;
+    background-position: -56px -40px;
+}
+
+.sprite-scrill {
+    width: 71px;
+    height: 25px;
+    background-position: -5px -121px;
+}
+
+.sprite-transfer {
+    width: 73px;
+    height: 25px;
+    background-position: -86px -121px;
+}
+
+.sprite-trustly {
+    width: 85px;
+    height: 25px;
+    background-position: -124px -5px;
+}
+
+.sprite-visa {
+    width: 86px;
+    height: 31px;
+    background-position: -164px -40px;
+}

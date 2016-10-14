@@ -1,0 +1,20 @@
+{
+  "name": "My project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "browser-sync": "^2.12.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.12.3",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files './styles/**/*.css' './styles/**/*.scss'"
+  },
+  "author": "",
+  "license": "ISC"
+}
